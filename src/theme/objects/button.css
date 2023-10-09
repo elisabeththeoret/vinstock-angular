@@ -1,0 +1,68 @@
+/* ==============================
+BUTTONS
+============================== */
+
+/* ------------------------------
+Default Button
+------------------------------ */
+
+/* Base */
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+
+/* Style */
+.button {
+    font-family: var(--font--lato);
+    font-weight: var(--font_weight--bold);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-radius: 9999px;
+}
+
+/* ------------------------------
+Main Button
+------------------------------ */
+
+/* Spacings */
+.button--main {
+    padding: .75rem 2.75rem;
+}
+
+/* Style */
+.button--main {
+    --tw-drop-shadow: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
+    filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+/* ------------------------------
+Secondary Button
+------------------------------ */
+
+/* Spacings */
+.button--secondary {
+    padding: .25rem 1.5rem;
+}
+
+/* Font size */
+.button--secondary {
+    font-size: .875rem;
+}
+
+/* ------------------------------
+Round Button
+------------------------------ */
+
+/* Spacings */
+.button--round {
+    max-width: max-content;
+    padding: .4em;
+}
+
+/* Font size */
+.button--round {
+    font-size: 1.5em;
+}

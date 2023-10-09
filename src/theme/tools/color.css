@@ -1,0 +1,24 @@
+/* ==============================
+COLORS
+============================== */
+
+/* Colors */
+:root {
+    --white: #FFFFFF;
+    --lightgray: #E7E7E7;
+    --black: #080808;
+    --darkred: #420C14;
+    --burgundy: #721121;
+    --red: #851B29;
+    --pink: #FF9286;
+    --beige: #FFCF99;
+    --green: #ADAE6A;
+}
+
+/* Wine Categories */
+:root {
+    --category--red: #851B29;
+    --category--white: #FFCF99;
+    --category--pink: #FF9286;
+    --category--tomato: #FF6347;
+}

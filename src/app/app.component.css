@@ -1,0 +1,121 @@
+/**
+ * APP COMPONENT CSS
+ */
+
+
+/* ==============================
+Main Container
+============================== */
+
+/* Base */
+.main__container {
+    width: 100%;
+    max-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+/* ------------------------------
+Spacings
+------------------------------ */
+.main__container {
+    margin: 0 auto 0;
+    padding-top: 1.25rem;
+}
+
+.main__container:has( .main__container--header) {
+    padding-top: 2.5rem;
+}
+
+.main__container:has( .nav__goback) {
+    padding-top: 1.25rem;
+}
+
+.main__container:has(~ .nav__main) {
+    padding-bottom: 6rem;
+}
+
+.main__container > * {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+/* ------------------------------
+Page Header
+------------------------------ */
+
+/* Base */
+.main__container--header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.5rem;
+}
+
+/* With logo (home pages) */
+.main__container--logo {
+    gap: .5rem;
+}
+
+
+/* ==============================
+MAIN NAV
+============================== */
+
+/* Base */
+.nav__main {
+    max-width: auto;
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 10;
+}
+
+/* Style */
+.nav__main {
+    text-align: center;
+}
+
+/* ------------------------------
+Link <a>
+------------------------------ */
+
+/* Base */
+.nav__main a {
+    display: flex;
+    align-items: center;
+    padding: .4em;
+}
+
+/* Style */
+.nav__main a {
+    color: var(--beige);
+    font-size: 1.625em;
+    border-radius: 100%;
+}
+
+/* Style of hover and active */
+.nav__main a:hover,
+.nav__main a:active {
+    color: var(--pink);
+}
+
+/* Active page style */
+.nav__main .active {
+    color: var(--pink);
+}
+
+/* Style for "Add Bottle" link */
+.nav__main .link--add,
+.nav__main .link--add:hover,
+.nav__main .link--add:active {
+    transform: translateY(-.625em);
+    background-color: var(--beige);
+    border: 4px solid var(--white);
+    color: var(--burgundy);
+}

@@ -1,1 +1,30 @@
-/* You can add global styles to this file, and also import other style files */
+/* ------------------------------
+Tailwind CSS
+------------------------------ */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ------------------------------
+Tools
+------------------------------ */
+@import './theme/tools/color.css';
+@import './theme/tools/typography.css';
+
+/* ------------------------------
+Elements
+------------------------------ */
+@import './theme/elements/generic.css';
+@import './theme/elements/typography.css';
+/* @import './theme/elements/.css'; */
+
+/* ------------------------------
+Objects
+------------------------------ */
+@import './theme/objects/button.css';
+/* @import './theme/objects/.css'; */
+
+/* ------------------------------
+Trumps
+------------------------------ */
+/* @import './theme/trumps/.css'; */

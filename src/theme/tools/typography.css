@@ -1,0 +1,38 @@
+/* ==============================
+OUTILS : TYPOGRAPHIES
+============================== */
+
+/* ------------------------------
+Variables : Famille de fontes
+------------------------------ */
+:root {
+    --font--lato: 'Lato', sans-serif;
+    --font--el_messiri: 'El Messiri', sans-serif;
+}
+
+/* ------------------------------
+Variables : Graisses
+------------------------------ */
+:root {
+    --font_weight--thin: 100;
+    --font_weight--light: 300;
+    --font_weight--regular: 400;
+    --font_weight--medium: 500;
+    --font_weight--semibold: 600;
+    --font_weight--bold: 700;
+    --font_weight--black: 900;
+}
+
+/*
+GRAISSES DISPONIBLES PAR TYPOGRAPHIE
+
+LATO {
+    Regular, Italic
+    100, 300, 400, 700, 900
+}
+
+EL MESSIRI {
+    Regular
+    400, 500, 600, 700
+}
+*/

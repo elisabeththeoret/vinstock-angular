@@ -1,0 +1,77 @@
+/* ==============================
+TYPOGRAPHY (GENERAL)
+============================== */
+
+/* ------------------------------
+Titles
+------------------------------ */
+h1 {
+    font-family: var(--font--lato);
+    font-weight: var(--font_weight--light);
+    font-size: clamp(48px, 6vw, 8vw);
+    line-height: 1em;
+    min-width: 8ch;
+}
+
+h2 {
+    font-family: var(--font--el_messiri);
+    font-size: clamp(36px, 4vw, 5vw);
+    line-height: 1em;
+    min-width: 10ch;
+}
+
+h3 {
+    font-family: var(--font--el_messiri);
+    font-weight: var(--font_weight--medium);
+    font-size: clamp(18px, 2vw, 3vw);
+    line-height: 1.25em;
+}
+
+h4 {
+    font-family: var(--font--lato);
+    font-size: clamp(24px, 2.2vw, 2.5vw);
+    line-height: 1em;
+}
+
+h5 {
+    font-family: var(--font--lato);
+    font-size: clamp(20px, 2.1vw, 2.3vw);
+    line-height: 1em;
+}
+
+/* ------------------------------
+Texts
+------------------------------ */
+p {
+    font-family: var(--font--lato);
+    font-size: 1rem;
+}
+
+small {
+    font-family: var(--font--lato);
+    font-size: 0.875rem;
+}
+
+a,
+button {
+    font-family: var(--font--lato);
+    font-size: clamp(24px, 2.2vw, 2.5vw);
+    font-size: inherit;
+    line-height: inherit;
+}
+
+/* ------------------------------
+Form
+------------------------------ */
+label {
+    font-family: var(--font--lato);
+    font-size: clamp(16px, 2vw, 2.5vw);
+}
+
+input,
+select,
+option,
+textarea {
+    font-family: var(--font--lato);
+    font-size: clamp(16px, 2vw, 2.5vw);
+}

@@ -1,0 +1,69 @@
+/* ==============================
+GENERIC
+============================== */
+
+/* Get rid of all default spacings */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* ------------------------------
+Base to be inherited
+------------------------------ */
+
+/* Typography */
+html {
+    font-family: var(--font-lato);
+    font-size: 18px;
+    font-weight: var(--font_weight-normal);
+    line-height: 1.5625;
+    color: var(--darkred);
+}
+
+/* Scrolling Effect */
+html {
+    scroll-behavior: smooth;
+}
+
+/* ------------------------------
+Link <a>
+------------------------------ */
+a {
+    text-decoration: none;
+}
+
+/* Transition */
+a {
+    transition: 300ms ease-in-out;
+}
+
+/* ------------------------------
+Button
+------------------------------ */
+button:focus-visible {
+    outline: none;
+}
+
+/* Transition */
+button {
+    transition: 300ms ease-in-out;
+}
+
+/* ------------------------------
+Form
+------------------------------ */
+input:focus-visible,
+select:focus-visible,
+option:focus-visible,
+textarea:focus-visible {
+    outline: none;
+}
+
+/* Transition */
+input,
+select,
+option,
+textarea {
+    transition: 200ms ease-in-out;
+}
